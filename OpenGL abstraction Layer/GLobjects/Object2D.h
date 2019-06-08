@@ -62,7 +62,7 @@ public:
 		if(!ready)
 		{
 			//abortion...
-			printf("\nOBJECT2D::vb,ib.shaders not initlized..");
+			printf("\nOBJECT2D::vb,ib or shaders not initlized..");
 			abort();
 		}
 		else
