@@ -74,6 +74,7 @@ public:
 		glDrawElements(render_As,vertices.getSize(),GL_UNSIGNED_INT,NULL);
 		vertices.unbind();
 		indices.unbind();
+		shader.unbind();
 		}
 	}
 	void setRenderType(int render_type)
